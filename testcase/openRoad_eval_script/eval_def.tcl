@@ -16,3 +16,11 @@ estimate_parasitics -placement
 report_tns
 report_wns
 report_power
+
+set paths [find_timing_paths -path_group reg2reg -sort_by_slack -group_path_count 1]
+set path [lindex $paths 0]
+set slack [get_property $path slack]
+
+set fp [open $::env(OUTFILE) w]
+puts $fp "slack: $slack"
+close $fp
