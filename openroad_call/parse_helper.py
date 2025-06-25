@@ -39,12 +39,13 @@ def load_design(demo_path, verilog = False):
   lefDir = demo_path/"ASAP7/LEF/"
   designDir = demo_path/"aes_cipher_top/"
   # Read technology files
-  libFiles = libDir.glob('*.lib')
+  libFiles = libDir.glob('*nldm*.lib')
   techLefFiles = techLefDir.glob('*.lef')
   lefFiles = lefDir.glob('*.lef')
   for libFile in libFiles:
-    if libFile.name == "asap7sc7p5t_INVBUF_LVT_TT_nldm_220122.lib": # Skip CON problem recorded @06/22
-        tech.readLiberty(libFile.as_posix())
+    tech.readLiberty(libFile.as_posix())
+    # if libFile.name == "asap7sc7p5t_INVBUF_LVT_TT_nldm_220122.lib": # Skip CON problem recorded @06/22
+    #     tech.readLiberty(libFile.as_posix())
   print("Lib files reading done!")
   for techLefFile in techLefFiles:
     tech.readLef(techLefFile.as_posix())
@@ -56,7 +57,7 @@ def load_design(demo_path, verilog = False):
   #Read design files
 
   if verilog:
-    verilogFile = designDir/"aes_cipher_top.v"
+    verilogFile = designDir/"aes_cipher_top_modified.v"
     design.readVerilog(f"{verilogFile}")
     design.link("aes_cipher_top")
   else:
