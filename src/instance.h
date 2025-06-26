@@ -12,23 +12,33 @@
 #include <time.h>
 #include <string>
 
-struct Net{
-    std::string name;
-    int degree;
-    std::vector<std::string> nodes;
-};
+enum class PinDir {INPUT, OUTPUT};
+struct Net;
+struct Cell;
 
 struct Pin{
     std::string name;
-    std::string gate;
-    int netID;
+    PinDir      dir;
+    Cell*       cell;
+    Net*        net;
+};
+
+struct Net{
+    std::string name;
+    std::vector<Pin*> pins;
+};
+
+struct Library{
+    std::string name;
+    double      area;
+    std::vector<std::pair<std::string, PinDir>> pinDef;
 };
 
 struct Cell{
     std::string name;
     std::string library;
     std::string type;
-    double w, h, xCoor, yCoor;
+    double      w, h, xCoor, yCoor;
 };
 
 #endif

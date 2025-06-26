@@ -9,6 +9,43 @@ static std::vector<std::string> split(const std::string &s, char delim) {
     return elems;
 }
 
+bool bookshelf::Parser::parseLibsFile(const std::string& filename){
+    std::ifstream libsFile(filename);
+    if(!libsFile){
+        std::cerr << "Cannot open " << filename << std::endl;
+        return false;
+    }
+
+    std::string line;
+    while(1){
+        Library* lib = new Library();
+        int numPins = 0;
+        
+        if(!(libsFile >> lib->name >> lib->area >> numPins)){
+            break;
+        }        
+        lib->pinDef.reserve(numPins);
+
+        for(int i=0; i<numPins; ++i){
+            std::pair<std::string, PinDir> pin;
+            if(!(libsFile >> pin.first >> line)){
+                std::cerr << "Something goes wrong in dumping libs file...\n";
+            }
+            pin.second = (line=="INPUT")? PinDir::INPUT : PinDir::OUTPUT;
+            lib->pinDef.push_back(pin);
+        }
+        this->_libraries.push_back(lib);
+    }
+
+    for(int i=0; i<10; ++i){
+        std::cout   << "Library Name: " << _libraries[i]->name 
+                    << "|Area: "        << _libraries[i]->area
+                    << "|PinNum: "      << _libraries[i]->pinDef.size() << std::endl;
+    }
+    
+    return true;
+}
+
 bool bookshelf::Parser::parseCSVFile(const std::string& filename){
     std::ifstream csvFile(filename);
     if(!csvFile){

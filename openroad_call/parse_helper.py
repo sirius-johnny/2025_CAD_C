@@ -50,11 +50,33 @@ def dump_libs_to_json(dump_file_path, libs):
     for master in lib.getMasters():
       libcell_name = master.getName()
       libcell_area = master.getHeight() * master.getWidth()
+      pins = master.getMTerms()
+      print("-"*60)
+      print(f'Len Pins of this Lib: {len(pins)}')
       print(f'Libcell Name: {libcell_name}, Libcell Area: {libcell_area}')
+
+      pin_list = []
+      for pin in pins:
+        pin_name = pin.getName()
+        pin_dir = pin.getIoType()
+        pin_list.append({
+          "pin_name": pin_name,
+          "pin_dir": pin_dir
+        })
+        print(f'Pin Name: {pin_name}, Pin Direction: {pin_dir}')
+
+
       data.append({
         "libcell_name": libcell_name,
-        "libcell_area": libcell_area
+        "libcell_area": libcell_area,
+        "pins": pin_list
       })
 
   with open(dump_file_path, 'w') as f:
-    json.dump(data, f, indent=2)
+    for cell in data:
+      name = cell["libcell_name"]
+      area = cell["libcell_area"]
+      pinNum = len(cell["pins"])
+      f.write(f"{name} {area} {pinNum}\n")
+      for pin in cell["pins"]:
+          f.write(f"{pin['pin_name']} {pin['pin_dir']}\n")

@@ -18,7 +18,7 @@ corner = timing.getCorners()[0]
 block = design.getBlock()
 
 libs = db.getLibs()
-dump_libs_to_json("./dump_json_files/lib.json", libs)
+dump_libs_to_json("./dump_for_Cplus/libs.txt", libs)
 
 insts = block.getInsts()
 for inst in insts:

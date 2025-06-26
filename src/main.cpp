@@ -11,6 +11,10 @@ int main(int argc, char **argv){
         return 0;
     }
     bookshelf::Parser par;
+    
+    std::string libsFileName = "./openroad_call/dump_for_Cplus/libs.txt";
+    par.parseLibsFile(libsFileName);
+
     par.parseCSVFile(inFileName);
 
     std::string plFileName = "./testcase/aes_cipher_top/aes_cipher_top.pl";
