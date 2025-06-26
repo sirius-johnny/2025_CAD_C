@@ -11,8 +11,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string>
-#include <pybind11/pybind11.h>
-#include <pybind11/stl.h>
 
 struct Net{
     std::string name;
@@ -26,12 +24,11 @@ struct Pin{
     int netID;
 };
 
-struct Node{
+struct Cell{
     std::string name;
-    bool isTerminal = false;
-    double w, h;
-
-    Node(std::string name, bool ter, int w, int h): name(name), isTerminal(ter), w(w), h(h){};
+    std::string library;
+    std::string type;
+    double w, h, xCoor, yCoor;
 };
 
 #endif

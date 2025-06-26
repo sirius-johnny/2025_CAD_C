@@ -1,0 +1,3410 @@
+[
+  {
+    "libcell_name": "sram_asap7_16x256_1rw",
+    "libcell_area": 140448000
+  },
+  {
+    "libcell_name": "A2O1A1Ixp33_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "A2O1A1O1Ixp25_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AND2x2_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AND2x4_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AND2x6_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AND3x1_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AND3x2_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AND3x4_ASAP7_75t_L",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "AND4x1_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AND4x2_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AND5x1_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AND5x2_ASAP7_75t_L",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "AO211x2_ASAP7_75t_L",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "AO21x1_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AO21x2_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AO221x1_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO221x2_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO222x2_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO22x1_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AO22x2_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO31x2_ASAP7_75t_L",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "AO322x2_ASAP7_75t_L",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "AO32x1_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AO32x2_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AO331x1_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO331x2_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO332x1_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO332x2_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO333x1_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO333x2_ASAP7_75t_L",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "AO33x2_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI211x1_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AOI211xp5_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI21x1_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AOI21xp33_ASAP7_75t_L",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "AOI21xp5_ASAP7_75t_L",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "AOI221x1_ASAP7_75t_L",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "AOI221xp5_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI222xp33_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI22x1_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI22xp33_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI22xp5_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI311xp33_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI31xp33_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI31xp67_ASAP7_75t_L",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "AOI321xp33_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AOI322xp5_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AOI32xp33_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI331xp33_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AOI332xp33_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI333xp33_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AOI33xp33_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx10_ASAP7_75t_L",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "BUFx12_ASAP7_75t_L",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "BUFx12f_ASAP7_75t_L",
+    "libcell_area": 262440
+  },
+  {
+    "libcell_name": "BUFx16f_ASAP7_75t_L",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "BUFx24_ASAP7_75t_L",
+    "libcell_area": 437400
+  },
+  {
+    "libcell_name": "BUFx2_ASAP7_75t_L",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "BUFx3_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "BUFx4_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "BUFx4f_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx5_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx6f_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "BUFx8_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "CKINVDCx10_ASAP7_75t_L",
+    "libcell_area": 349920
+  },
+  {
+    "libcell_name": "CKINVDCx11_ASAP7_75t_L",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "CKINVDCx12_ASAP7_75t_L",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "CKINVDCx14_ASAP7_75t_L",
+    "libcell_area": 408240
+  },
+  {
+    "libcell_name": "CKINVDCx16_ASAP7_75t_L",
+    "libcell_area": 437400
+  },
+  {
+    "libcell_name": "CKINVDCx20_ASAP7_75t_L",
+    "libcell_area": 554040
+  },
+  {
+    "libcell_name": "CKINVDCx5p33_ASAP7_75t_L",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "CKINVDCx6p67_ASAP7_75t_L",
+    "libcell_area": 349920
+  },
+  {
+    "libcell_name": "CKINVDCx8_ASAP7_75t_L",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "CKINVDCx9p33_ASAP7_75t_L",
+    "libcell_area": 408240
+  },
+  {
+    "libcell_name": "DECAPx10_ASAP7_75t_L",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DECAPx1_ASAP7_75t_L",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "DECAPx2_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "DECAPx2b_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "DECAPx4_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "DECAPx6_ASAP7_75t_L",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "DFFASRHQNx1_ASAP7_75t_L",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "DFFHQNx1_ASAP7_75t_L",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "DFFHQNx2_ASAP7_75t_L",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "DFFHQNx3_ASAP7_75t_L",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DFFHQx4_ASAP7_75t_L",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "DFFLQNx1_ASAP7_75t_L",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "DFFLQNx2_ASAP7_75t_L",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "DFFLQNx3_ASAP7_75t_L",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DFFLQx4_ASAP7_75t_L",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "DHLx1_ASAP7_75t_L",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "DHLx2_ASAP7_75t_L",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "DHLx3_ASAP7_75t_L",
+    "libcell_area": 247860
+  },
+  {
+    "libcell_name": "DLLx1_ASAP7_75t_L",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "DLLx2_ASAP7_75t_L",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "DLLx3_ASAP7_75t_L",
+    "libcell_area": 247860
+  },
+  {
+    "libcell_name": "FAx1_ASAP7_75t_L",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "FILLER_ASAP7_75t_L",
+    "libcell_area": 29160
+  },
+  {
+    "libcell_name": "FILLERxp5_ASAP7_75t_L",
+    "libcell_area": 14580
+  },
+  {
+    "libcell_name": "HAxp5_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "HB1xp67_ASAP7_75t_L",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "HB2xp67_ASAP7_75t_L",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "HB3xp67_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "HB4xp67_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "ICGx1_ASAP7_75t_L",
+    "libcell_area": 262440
+  },
+  {
+    "libcell_name": "ICGx2_ASAP7_75t_L",
+    "libcell_area": 277020
+  },
+  {
+    "libcell_name": "ICGx2p67DC_ASAP7_75t_L",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx3_ASAP7_75t_L",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "ICGx4DC_ASAP7_75t_L",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx4_ASAP7_75t_L",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "ICGx5_ASAP7_75t_L",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "ICGx5p33DC_ASAP7_75t_L",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx6p67DC_ASAP7_75t_L",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx8DC_ASAP7_75t_L",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "INVx11_ASAP7_75t_L",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "INVx13_ASAP7_75t_L",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "INVx1_ASAP7_75t_L",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "INVx2_ASAP7_75t_L",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "INVx3_ASAP7_75t_L",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "INVx4_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "INVx5_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "INVx6_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "INVx8_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "INVxp33_ASAP7_75t_L",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "INVxp67_ASAP7_75t_L",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "MAJIxp5_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "MAJx2_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "MAJx3_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NAND2x1_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND2x1p5_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "NAND2x2_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NAND2xp33_ASAP7_75t_L",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NAND2xp5_ASAP7_75t_L",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NAND2xp67_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND3x1_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "NAND3x2_ASAP7_75t_L",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "NAND3xp33_ASAP7_75t_L",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "NAND4xp25_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND4xp75_ASAP7_75t_L",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "NAND5xp2_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "NOR2x1_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR2x1p5_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "NOR2x2_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NOR2xp33_ASAP7_75t_L",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NOR2xp67_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR3x1_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "NOR3x2_ASAP7_75t_L",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "NOR3xp33_ASAP7_75t_L",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "NOR4xp25_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR4xp75_ASAP7_75t_L",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "NOR5xp2_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "O2A1O1Ixp33_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "O2A1O1Ixp5_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OA211x2_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OA21x2_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OA221x2_ASAP7_75t_L",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "OA222x2_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA22x2_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OA31x2_ASAP7_75t_L",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "OA331x1_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OA331x2_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OA332x1_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OA332x2_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA333x1_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA333x2_ASAP7_75t_L",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "OA33x2_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI211xp5_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI21x1_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OAI21xp33_ASAP7_75t_L",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "OAI21xp5_ASAP7_75t_L",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "OAI221xp5_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI222xp33_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI22x1_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI22xp33_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI22xp5_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI311xp33_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI31xp33_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI31xp67_ASAP7_75t_L",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "OAI321xp33_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OAI322xp33_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OAI32xp33_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI331xp33_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OAI332xp33_ASAP7_75t_L",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI333xp33_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OAI33xp33_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR2x2_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OR2x4_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR2x6_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OR3x1_ASAP7_75t_L",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OR3x2_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OR3x4_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OR4x1_ASAP7_75t_L",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OR4x2_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR5x1_ASAP7_75t_L",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR5x2_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "SDFHx1_ASAP7_75t_L",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "SDFHx2_ASAP7_75t_L",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "SDFHx3_ASAP7_75t_L",
+    "libcell_area": 393660
+  },
+  {
+    "libcell_name": "SDFHx4_ASAP7_75t_L",
+    "libcell_area": 451980
+  },
+  {
+    "libcell_name": "SDFLx1_ASAP7_75t_L",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "SDFLx2_ASAP7_75t_L",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "SDFLx3_ASAP7_75t_L",
+    "libcell_area": 393660
+  },
+  {
+    "libcell_name": "SDFLx4_ASAP7_75t_L",
+    "libcell_area": 451980
+  },
+  {
+    "libcell_name": "TAPCELL_ASAP7_75t_L",
+    "libcell_area": 29160
+  },
+  {
+    "libcell_name": "TAPCELL_WITH_FILLER_ASAP7_75t_L",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "TIEHIx1_ASAP7_75t_L",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "TIELOx1_ASAP7_75t_L",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "XNOR2x1_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "XNOR2x2_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "XNOR2xp5_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "XOR2x1_ASAP7_75t_L",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "XOR2x2_ASAP7_75t_L",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "XOR2xp5_ASAP7_75t_L",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "A2O1A1Ixp33_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "A2O1A1O1Ixp25_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AND2x2_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AND2x4_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AND2x6_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AND3x1_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AND3x2_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AND3x4_ASAP7_75t_SL",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "AND4x1_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AND4x2_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AND5x1_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AND5x2_ASAP7_75t_SL",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "AO211x2_ASAP7_75t_SL",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "AO21x1_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AO21x2_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AO221x1_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO221x2_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO222x2_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO22x1_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AO22x2_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO31x2_ASAP7_75t_SL",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "AO322x2_ASAP7_75t_SL",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "AO32x1_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AO32x2_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AO331x1_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO331x2_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO332x1_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO332x2_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO333x1_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO333x2_ASAP7_75t_SL",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "AO33x2_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI211x1_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AOI211xp5_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI21x1_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AOI21xp33_ASAP7_75t_SL",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "AOI21xp5_ASAP7_75t_SL",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "AOI221x1_ASAP7_75t_SL",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "AOI221xp5_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI222xp33_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI22x1_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI22xp33_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI22xp5_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI311xp33_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI31xp33_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI31xp67_ASAP7_75t_SL",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "AOI321xp33_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AOI322xp5_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AOI32xp33_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI331xp33_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AOI332xp33_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI333xp33_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AOI33xp33_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx10_ASAP7_75t_SL",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "BUFx12_ASAP7_75t_SL",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "BUFx12f_ASAP7_75t_SL",
+    "libcell_area": 262440
+  },
+  {
+    "libcell_name": "BUFx16f_ASAP7_75t_SL",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "BUFx24_ASAP7_75t_SL",
+    "libcell_area": 437400
+  },
+  {
+    "libcell_name": "BUFx2_ASAP7_75t_SL",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "BUFx3_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "BUFx4_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "BUFx4f_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx5_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx6f_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "BUFx8_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "CKINVDCx10_ASAP7_75t_SL",
+    "libcell_area": 349920
+  },
+  {
+    "libcell_name": "CKINVDCx11_ASAP7_75t_SL",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "CKINVDCx12_ASAP7_75t_SL",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "CKINVDCx14_ASAP7_75t_SL",
+    "libcell_area": 408240
+  },
+  {
+    "libcell_name": "CKINVDCx16_ASAP7_75t_SL",
+    "libcell_area": 437400
+  },
+  {
+    "libcell_name": "CKINVDCx20_ASAP7_75t_SL",
+    "libcell_area": 554040
+  },
+  {
+    "libcell_name": "CKINVDCx5p33_ASAP7_75t_SL",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "CKINVDCx6p67_ASAP7_75t_SL",
+    "libcell_area": 349920
+  },
+  {
+    "libcell_name": "CKINVDCx8_ASAP7_75t_SL",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "CKINVDCx9p33_ASAP7_75t_SL",
+    "libcell_area": 408240
+  },
+  {
+    "libcell_name": "DECAPx10_ASAP7_75t_SL",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DECAPx1_ASAP7_75t_SL",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "DECAPx2_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "DECAPx2b_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "DECAPx4_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "DECAPx6_ASAP7_75t_SL",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "DFFASRHQNx1_ASAP7_75t_SL",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "DFFHQNx1_ASAP7_75t_SL",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "DFFHQNx2_ASAP7_75t_SL",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "DFFHQNx3_ASAP7_75t_SL",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DFFHQx4_ASAP7_75t_SL",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "DFFLQNx1_ASAP7_75t_SL",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "DFFLQNx2_ASAP7_75t_SL",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "DFFLQNx3_ASAP7_75t_SL",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DFFLQx4_ASAP7_75t_SL",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "DHLx1_ASAP7_75t_SL",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "DHLx2_ASAP7_75t_SL",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "DHLx3_ASAP7_75t_SL",
+    "libcell_area": 247860
+  },
+  {
+    "libcell_name": "DLLx1_ASAP7_75t_SL",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "DLLx2_ASAP7_75t_SL",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "DLLx3_ASAP7_75t_SL",
+    "libcell_area": 247860
+  },
+  {
+    "libcell_name": "FAx1_ASAP7_75t_SL",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "FILLER_ASAP7_75t_SL",
+    "libcell_area": 29160
+  },
+  {
+    "libcell_name": "FILLERxp5_ASAP7_75t_SL",
+    "libcell_area": 14580
+  },
+  {
+    "libcell_name": "HAxp5_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "HB1xp67_ASAP7_75t_SL",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "HB2xp67_ASAP7_75t_SL",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "HB3xp67_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "HB4xp67_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "ICGx1_ASAP7_75t_SL",
+    "libcell_area": 262440
+  },
+  {
+    "libcell_name": "ICGx2_ASAP7_75t_SL",
+    "libcell_area": 277020
+  },
+  {
+    "libcell_name": "ICGx2p67DC_ASAP7_75t_SL",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx3_ASAP7_75t_SL",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "ICGx4DC_ASAP7_75t_SL",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx4_ASAP7_75t_SL",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "ICGx5_ASAP7_75t_SL",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "ICGx5p33DC_ASAP7_75t_SL",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx6p67DC_ASAP7_75t_SL",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx8DC_ASAP7_75t_SL",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "INVx11_ASAP7_75t_SL",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "INVx13_ASAP7_75t_SL",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "INVx1_ASAP7_75t_SL",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "INVx2_ASAP7_75t_SL",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "INVx3_ASAP7_75t_SL",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "INVx4_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "INVx5_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "INVx6_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "INVx8_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "INVxp33_ASAP7_75t_SL",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "INVxp67_ASAP7_75t_SL",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "MAJIxp5_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "MAJx2_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "MAJx3_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NAND2x1_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND2x1p5_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "NAND2x2_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NAND2xp33_ASAP7_75t_SL",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NAND2xp5_ASAP7_75t_SL",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NAND2xp67_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND3x1_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "NAND3x2_ASAP7_75t_SL",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "NAND3xp33_ASAP7_75t_SL",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "NAND4xp25_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND4xp75_ASAP7_75t_SL",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "NAND5xp2_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "NOR2x1_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR2x1p5_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "NOR2x2_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NOR2xp33_ASAP7_75t_SL",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NOR2xp67_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR3x1_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "NOR3x2_ASAP7_75t_SL",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "NOR3xp33_ASAP7_75t_SL",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "NOR4xp25_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR4xp75_ASAP7_75t_SL",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "NOR5xp2_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "O2A1O1Ixp33_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "O2A1O1Ixp5_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OA211x2_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OA21x2_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OA221x2_ASAP7_75t_SL",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "OA222x2_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA22x2_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OA31x2_ASAP7_75t_SL",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "OA331x1_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OA331x2_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OA332x1_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OA332x2_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA333x1_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA333x2_ASAP7_75t_SL",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "OA33x2_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI211xp5_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI21x1_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OAI21xp33_ASAP7_75t_SL",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "OAI21xp5_ASAP7_75t_SL",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "OAI221xp5_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI222xp33_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI22x1_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI22xp33_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI22xp5_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI311xp33_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI31xp33_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI31xp67_ASAP7_75t_SL",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "OAI321xp33_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OAI322xp33_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OAI32xp33_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI331xp33_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OAI332xp33_ASAP7_75t_SL",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI333xp33_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OAI33xp33_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR2x2_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OR2x4_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR2x6_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OR3x1_ASAP7_75t_SL",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OR3x2_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OR3x4_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OR4x1_ASAP7_75t_SL",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OR4x2_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR5x1_ASAP7_75t_SL",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR5x2_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "SDFHx1_ASAP7_75t_SL",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "SDFHx2_ASAP7_75t_SL",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "SDFHx3_ASAP7_75t_SL",
+    "libcell_area": 393660
+  },
+  {
+    "libcell_name": "SDFHx4_ASAP7_75t_SL",
+    "libcell_area": 451980
+  },
+  {
+    "libcell_name": "SDFLx1_ASAP7_75t_SL",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "SDFLx2_ASAP7_75t_SL",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "SDFLx3_ASAP7_75t_SL",
+    "libcell_area": 393660
+  },
+  {
+    "libcell_name": "SDFLx4_ASAP7_75t_SL",
+    "libcell_area": 451980
+  },
+  {
+    "libcell_name": "TAPCELL_ASAP7_75t_SL",
+    "libcell_area": 29160
+  },
+  {
+    "libcell_name": "TAPCELL_WITH_FILLER_ASAP7_75t_SL",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "TIEHIx1_ASAP7_75t_SL",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "TIELOx1_ASAP7_75t_SL",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "XNOR2x1_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "XNOR2x2_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "XNOR2xp5_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "XOR2x1_ASAP7_75t_SL",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "XOR2x2_ASAP7_75t_SL",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "XOR2xp5_ASAP7_75t_SL",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "sram_asap7_64x64_1rw",
+    "libcell_area": 140448000
+  },
+  {
+    "libcell_name": "A2O1A1Ixp33_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "A2O1A1O1Ixp25_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AND2x2_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AND2x4_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AND2x6_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AND3x1_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AND3x2_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AND3x4_ASAP7_75t_R",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "AND4x1_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AND4x2_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AND5x1_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AND5x2_ASAP7_75t_R",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "AO211x2_ASAP7_75t_R",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "AO21x1_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AO21x2_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AO221x1_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO221x2_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO222x2_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO22x1_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AO22x2_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO31x2_ASAP7_75t_R",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "AO322x2_ASAP7_75t_R",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "AO32x1_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AO32x2_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AO331x1_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO331x2_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO332x1_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO332x2_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO333x1_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO333x2_ASAP7_75t_R",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "AO33x2_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI211x1_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AOI211xp5_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI21x1_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AOI21xp33_ASAP7_75t_R",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "AOI21xp5_ASAP7_75t_R",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "AOI221x1_ASAP7_75t_R",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "AOI221xp5_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI222xp33_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI22x1_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI22xp33_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI22xp5_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI311xp33_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI31xp33_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI31xp67_ASAP7_75t_R",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "AOI321xp33_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AOI322xp5_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AOI32xp33_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI331xp33_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AOI332xp33_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI333xp33_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AOI33xp33_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx10_ASAP7_75t_R",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "BUFx12_ASAP7_75t_R",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "BUFx12f_ASAP7_75t_R",
+    "libcell_area": 262440
+  },
+  {
+    "libcell_name": "BUFx16f_ASAP7_75t_R",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "BUFx24_ASAP7_75t_R",
+    "libcell_area": 437400
+  },
+  {
+    "libcell_name": "BUFx2_ASAP7_75t_R",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "BUFx3_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "BUFx4_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "BUFx4f_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx5_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx6f_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "BUFx8_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "CKINVDCx10_ASAP7_75t_R",
+    "libcell_area": 349920
+  },
+  {
+    "libcell_name": "CKINVDCx11_ASAP7_75t_R",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "CKINVDCx12_ASAP7_75t_R",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "CKINVDCx14_ASAP7_75t_R",
+    "libcell_area": 408240
+  },
+  {
+    "libcell_name": "CKINVDCx16_ASAP7_75t_R",
+    "libcell_area": 437400
+  },
+  {
+    "libcell_name": "CKINVDCx20_ASAP7_75t_R",
+    "libcell_area": 554040
+  },
+  {
+    "libcell_name": "CKINVDCx5p33_ASAP7_75t_R",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "CKINVDCx6p67_ASAP7_75t_R",
+    "libcell_area": 349920
+  },
+  {
+    "libcell_name": "CKINVDCx8_ASAP7_75t_R",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "CKINVDCx9p33_ASAP7_75t_R",
+    "libcell_area": 408240
+  },
+  {
+    "libcell_name": "DECAPx10_ASAP7_75t_R",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DECAPx1_ASAP7_75t_R",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "DECAPx2_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "DECAPx2b_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "DECAPx4_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "DECAPx6_ASAP7_75t_R",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "DFFASRHQNx1_ASAP7_75t_R",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "DFFHQNx1_ASAP7_75t_R",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "DFFHQNx2_ASAP7_75t_R",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "DFFHQNx3_ASAP7_75t_R",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DFFHQx4_ASAP7_75t_R",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "DFFLQNx1_ASAP7_75t_R",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "DFFLQNx2_ASAP7_75t_R",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "DFFLQNx3_ASAP7_75t_R",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DFFLQx4_ASAP7_75t_R",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "DHLx1_ASAP7_75t_R",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "DHLx2_ASAP7_75t_R",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "DHLx3_ASAP7_75t_R",
+    "libcell_area": 247860
+  },
+  {
+    "libcell_name": "DLLx1_ASAP7_75t_R",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "DLLx2_ASAP7_75t_R",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "DLLx3_ASAP7_75t_R",
+    "libcell_area": 247860
+  },
+  {
+    "libcell_name": "FAx1_ASAP7_75t_R",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "FILLER_ASAP7_75t_R",
+    "libcell_area": 29160
+  },
+  {
+    "libcell_name": "FILLERxp5_ASAP7_75t_R",
+    "libcell_area": 14580
+  },
+  {
+    "libcell_name": "HAxp5_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "HB1xp67_ASAP7_75t_R",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "HB2xp67_ASAP7_75t_R",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "HB3xp67_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "HB4xp67_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "ICGx1_ASAP7_75t_R",
+    "libcell_area": 262440
+  },
+  {
+    "libcell_name": "ICGx2_ASAP7_75t_R",
+    "libcell_area": 277020
+  },
+  {
+    "libcell_name": "ICGx2p67DC_ASAP7_75t_R",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx3_ASAP7_75t_R",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "ICGx4DC_ASAP7_75t_R",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx4_ASAP7_75t_R",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "ICGx5_ASAP7_75t_R",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "ICGx5p33DC_ASAP7_75t_R",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx6p67DC_ASAP7_75t_R",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx8DC_ASAP7_75t_R",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "INVx11_ASAP7_75t_R",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "INVx13_ASAP7_75t_R",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "INVx1_ASAP7_75t_R",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "INVx2_ASAP7_75t_R",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "INVx3_ASAP7_75t_R",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "INVx4_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "INVx5_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "INVx6_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "INVx8_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "INVxp33_ASAP7_75t_R",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "INVxp67_ASAP7_75t_R",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "MAJIxp5_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "MAJx2_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "MAJx3_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NAND2x1_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND2x1p5_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "NAND2x2_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NAND2xp33_ASAP7_75t_R",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NAND2xp5_ASAP7_75t_R",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NAND2xp67_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND3x1_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "NAND3x2_ASAP7_75t_R",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "NAND3xp33_ASAP7_75t_R",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "NAND4xp25_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND4xp75_ASAP7_75t_R",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "NAND5xp2_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "NOR2x1_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR2x1p5_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "NOR2x2_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NOR2xp33_ASAP7_75t_R",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NOR2xp67_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR3x1_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "NOR3x2_ASAP7_75t_R",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "NOR3xp33_ASAP7_75t_R",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "NOR4xp25_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR4xp75_ASAP7_75t_R",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "NOR5xp2_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "O2A1O1Ixp33_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "O2A1O1Ixp5_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OA211x2_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OA21x2_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OA221x2_ASAP7_75t_R",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "OA222x2_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA22x2_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OA31x2_ASAP7_75t_R",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "OA331x1_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OA331x2_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OA332x1_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OA332x2_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA333x1_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA333x2_ASAP7_75t_R",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "OA33x2_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI211xp5_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI21x1_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OAI21xp33_ASAP7_75t_R",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "OAI21xp5_ASAP7_75t_R",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "OAI221xp5_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI222xp33_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI22x1_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI22xp33_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI22xp5_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI311xp33_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI31xp33_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI31xp67_ASAP7_75t_R",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "OAI321xp33_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OAI322xp33_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OAI32xp33_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI331xp33_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OAI332xp33_ASAP7_75t_R",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI333xp33_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OAI33xp33_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR2x2_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OR2x4_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR2x6_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OR3x1_ASAP7_75t_R",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OR3x2_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OR3x4_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OR4x1_ASAP7_75t_R",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OR4x2_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR5x1_ASAP7_75t_R",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR5x2_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "SDFHx1_ASAP7_75t_R",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "SDFHx2_ASAP7_75t_R",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "SDFHx3_ASAP7_75t_R",
+    "libcell_area": 393660
+  },
+  {
+    "libcell_name": "SDFHx4_ASAP7_75t_R",
+    "libcell_area": 451980
+  },
+  {
+    "libcell_name": "SDFLx1_ASAP7_75t_R",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "SDFLx2_ASAP7_75t_R",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "SDFLx3_ASAP7_75t_R",
+    "libcell_area": 393660
+  },
+  {
+    "libcell_name": "SDFLx4_ASAP7_75t_R",
+    "libcell_area": 451980
+  },
+  {
+    "libcell_name": "TAPCELL_ASAP7_75t_R",
+    "libcell_area": 29160
+  },
+  {
+    "libcell_name": "TAPCELL_WITH_FILLER_ASAP7_75t_R",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "TIEHIx1_ASAP7_75t_R",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "TIELOx1_ASAP7_75t_R",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "XNOR2x1_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "XNOR2x2_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "XNOR2xp5_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "XOR2x1_ASAP7_75t_R",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "XOR2x2_ASAP7_75t_R",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "XOR2xp5_ASAP7_75t_R",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "sram_asap7_32x256_1rw",
+    "libcell_area": 280896000
+  },
+  {
+    "libcell_name": "A2O1A1Ixp33_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "A2O1A1O1Ixp25_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AND2x2_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AND2x4_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AND2x6_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AND3x1_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AND3x2_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AND3x4_ASAP7_75t_SRAM",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "AND4x1_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AND4x2_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AND5x1_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AND5x2_ASAP7_75t_SRAM",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "AO211x2_ASAP7_75t_SRAM",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "AO21x1_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AO21x2_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AO221x1_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO221x2_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO222x2_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO22x1_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AO22x2_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO31x2_ASAP7_75t_SRAM",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "AO322x2_ASAP7_75t_SRAM",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "AO32x1_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AO32x2_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AO331x1_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AO331x2_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO332x1_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AO332x2_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO333x1_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AO333x2_ASAP7_75t_SRAM",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "AO33x2_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI211x1_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "AOI211xp5_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI21x1_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AOI21xp33_ASAP7_75t_SRAM",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "AOI21xp5_ASAP7_75t_SRAM",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "AOI221x1_ASAP7_75t_SRAM",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "AOI221xp5_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI222xp33_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI22x1_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI22xp33_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI22xp5_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI311xp33_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI31xp33_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "AOI31xp67_ASAP7_75t_SRAM",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "AOI321xp33_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "AOI322xp5_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AOI32xp33_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "AOI331xp33_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "AOI332xp33_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "AOI333xp33_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "AOI33xp33_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx10_ASAP7_75t_SRAM",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "BUFx12_ASAP7_75t_SRAM",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "BUFx12f_ASAP7_75t_SRAM",
+    "libcell_area": 262440
+  },
+  {
+    "libcell_name": "BUFx16f_ASAP7_75t_SRAM",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "BUFx24_ASAP7_75t_SRAM",
+    "libcell_area": 437400
+  },
+  {
+    "libcell_name": "BUFx2_ASAP7_75t_SRAM",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "BUFx3_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "BUFx4_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "BUFx4f_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx5_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "BUFx6f_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "BUFx8_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "CKINVDCx10_ASAP7_75t_SRAM",
+    "libcell_area": 349920
+  },
+  {
+    "libcell_name": "CKINVDCx11_ASAP7_75t_SRAM",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "CKINVDCx12_ASAP7_75t_SRAM",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "CKINVDCx14_ASAP7_75t_SRAM",
+    "libcell_area": 408240
+  },
+  {
+    "libcell_name": "CKINVDCx16_ASAP7_75t_SRAM",
+    "libcell_area": 437400
+  },
+  {
+    "libcell_name": "CKINVDCx20_ASAP7_75t_SRAM",
+    "libcell_area": 554040
+  },
+  {
+    "libcell_name": "CKINVDCx5p33_ASAP7_75t_SRAM",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "CKINVDCx6p67_ASAP7_75t_SRAM",
+    "libcell_area": 349920
+  },
+  {
+    "libcell_name": "CKINVDCx8_ASAP7_75t_SRAM",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "CKINVDCx9p33_ASAP7_75t_SRAM",
+    "libcell_area": 408240
+  },
+  {
+    "libcell_name": "DECAPx10_ASAP7_75t_SRAM",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DECAPx1_ASAP7_75t_SRAM",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "DECAPx2_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "DECAPx2b_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "DECAPx4_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "DECAPx6_ASAP7_75t_SRAM",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "DFFASRHQNx1_ASAP7_75t_SRAM",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "DFFHQNx1_ASAP7_75t_SRAM",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "DFFHQNx2_ASAP7_75t_SRAM",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "DFFHQNx3_ASAP7_75t_SRAM",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DFFHQx4_ASAP7_75t_SRAM",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "DFFLQNx1_ASAP7_75t_SRAM",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "DFFLQNx2_ASAP7_75t_SRAM",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "DFFLQNx3_ASAP7_75t_SRAM",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "DFFLQx4_ASAP7_75t_SRAM",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "DHLx1_ASAP7_75t_SRAM",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "DHLx2_ASAP7_75t_SRAM",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "DHLx3_ASAP7_75t_SRAM",
+    "libcell_area": 247860
+  },
+  {
+    "libcell_name": "DLLx1_ASAP7_75t_SRAM",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "DLLx2_ASAP7_75t_SRAM",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "DLLx3_ASAP7_75t_SRAM",
+    "libcell_area": 247860
+  },
+  {
+    "libcell_name": "FAx1_ASAP7_75t_SRAM",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "FILLER_ASAP7_75t_SRAM",
+    "libcell_area": 29160
+  },
+  {
+    "libcell_name": "FILLERxp5_ASAP7_75t_SRAM",
+    "libcell_area": 14580
+  },
+  {
+    "libcell_name": "HAxp5_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "HB1xp67_ASAP7_75t_SRAM",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "HB2xp67_ASAP7_75t_SRAM",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "HB3xp67_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "HB4xp67_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "ICGx1_ASAP7_75t_SRAM",
+    "libcell_area": 262440
+  },
+  {
+    "libcell_name": "ICGx2_ASAP7_75t_SRAM",
+    "libcell_area": 277020
+  },
+  {
+    "libcell_name": "ICGx2p67DC_ASAP7_75t_SRAM",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx3_ASAP7_75t_SRAM",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "ICGx4DC_ASAP7_75t_SRAM",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx4_ASAP7_75t_SRAM",
+    "libcell_area": 306180
+  },
+  {
+    "libcell_name": "ICGx5_ASAP7_75t_SRAM",
+    "libcell_area": 320760
+  },
+  {
+    "libcell_name": "ICGx5p33DC_ASAP7_75t_SRAM",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx6p67DC_ASAP7_75t_SRAM",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "ICGx8DC_ASAP7_75t_SRAM",
+    "libcell_area": 699840
+  },
+  {
+    "libcell_name": "INVx11_ASAP7_75t_SRAM",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "INVx13_ASAP7_75t_SRAM",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "INVx1_ASAP7_75t_SRAM",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "INVx2_ASAP7_75t_SRAM",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "INVx3_ASAP7_75t_SRAM",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "INVx4_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "INVx5_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "INVx6_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "INVx8_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "INVxp33_ASAP7_75t_SRAM",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "INVxp67_ASAP7_75t_SRAM",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "MAJIxp5_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "MAJx2_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "MAJx3_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NAND2x1_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND2x1p5_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "NAND2x2_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NAND2xp33_ASAP7_75t_SRAM",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NAND2xp5_ASAP7_75t_SRAM",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NAND2xp67_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND3x1_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "NAND3x2_ASAP7_75t_SRAM",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "NAND3xp33_ASAP7_75t_SRAM",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "NAND4xp25_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NAND4xp75_ASAP7_75t_SRAM",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "NAND5xp2_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "NOR2x1_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR2x1p5_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "NOR2x2_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "NOR2xp33_ASAP7_75t_SRAM",
+    "libcell_area": 58320
+  },
+  {
+    "libcell_name": "NOR2xp67_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR3x1_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "NOR3x2_ASAP7_75t_SRAM",
+    "libcell_area": 291600
+  },
+  {
+    "libcell_name": "NOR3xp33_ASAP7_75t_SRAM",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "NOR4xp25_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "NOR4xp75_ASAP7_75t_SRAM",
+    "libcell_area": 204120
+  },
+  {
+    "libcell_name": "NOR5xp2_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "O2A1O1Ixp33_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "O2A1O1Ixp5_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OA211x2_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OA21x2_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OA221x2_ASAP7_75t_SRAM",
+    "libcell_area": 233280
+  },
+  {
+    "libcell_name": "OA222x2_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA22x2_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OA31x2_ASAP7_75t_SRAM",
+    "libcell_area": 218700
+  },
+  {
+    "libcell_name": "OA331x1_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OA331x2_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OA332x1_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OA332x2_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA333x1_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OA333x2_ASAP7_75t_SRAM",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "OA33x2_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI211xp5_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI21x1_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OAI21xp33_ASAP7_75t_SRAM",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "OAI21xp5_ASAP7_75t_SRAM",
+    "libcell_area": 72900
+  },
+  {
+    "libcell_name": "OAI221xp5_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI222xp33_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI22x1_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI22xp33_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI22xp5_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI311xp33_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI31xp33_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OAI31xp67_ASAP7_75t_SRAM",
+    "libcell_area": 189540
+  },
+  {
+    "libcell_name": "OAI321xp33_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OAI322xp33_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OAI32xp33_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OAI331xp33_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OAI332xp33_ASAP7_75t_SRAM",
+    "libcell_area": 145800
+  },
+  {
+    "libcell_name": "OAI333xp33_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "OAI33xp33_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR2x2_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OR2x4_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR2x6_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "OR3x1_ASAP7_75t_SRAM",
+    "libcell_area": 87480
+  },
+  {
+    "libcell_name": "OR3x2_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OR3x4_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "OR4x1_ASAP7_75t_SRAM",
+    "libcell_area": 102060
+  },
+  {
+    "libcell_name": "OR4x2_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR5x1_ASAP7_75t_SRAM",
+    "libcell_area": 116640
+  },
+  {
+    "libcell_name": "OR5x2_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "SDFHx1_ASAP7_75t_SRAM",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "SDFHx2_ASAP7_75t_SRAM",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "SDFHx3_ASAP7_75t_SRAM",
+    "libcell_area": 393660
+  },
+  {
+    "libcell_name": "SDFHx4_ASAP7_75t_SRAM",
+    "libcell_area": 451980
+  },
+  {
+    "libcell_name": "SDFLx1_ASAP7_75t_SRAM",
+    "libcell_area": 364500
+  },
+  {
+    "libcell_name": "SDFLx2_ASAP7_75t_SRAM",
+    "libcell_area": 379080
+  },
+  {
+    "libcell_name": "SDFLx3_ASAP7_75t_SRAM",
+    "libcell_area": 393660
+  },
+  {
+    "libcell_name": "SDFLx4_ASAP7_75t_SRAM",
+    "libcell_area": 451980
+  },
+  {
+    "libcell_name": "TAPCELL_ASAP7_75t_SRAM",
+    "libcell_area": 29160
+  },
+  {
+    "libcell_name": "TAPCELL_WITH_FILLER_ASAP7_75t_SRAM",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "TIEHIx1_ASAP7_75t_SRAM",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "TIELOx1_ASAP7_75t_SRAM",
+    "libcell_area": 43740
+  },
+  {
+    "libcell_name": "XNOR2x1_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "XNOR2x2_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "XNOR2xp5_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "XOR2x1_ASAP7_75t_SRAM",
+    "libcell_area": 174960
+  },
+  {
+    "libcell_name": "XOR2x2_ASAP7_75t_SRAM",
+    "libcell_area": 160380
+  },
+  {
+    "libcell_name": "XOR2xp5_ASAP7_75t_SRAM",
+    "libcell_area": 131220
+  },
+  {
+    "libcell_name": "sram_asap7_64x256_1rw",
+    "libcell_area": 561792000
+  }
+]
