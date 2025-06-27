@@ -21,8 +21,8 @@ libs = db.getLibs()
 dump_libs_to_json("./dump_for_Cplus/libs.txt", libs)
 
 insts = block.getInsts()
-for inst in insts:
-    print(f'Inst Name: {inst.getName()}| Location: {inst.getLocation()}')
+# for inst in insts:
+    # print(f'Inst Name: {inst.getName()}| Location: {inst.getLocation()}')
 
 
 # ############

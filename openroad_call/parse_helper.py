@@ -26,7 +26,7 @@ def load_design(demo_path, verilog = False):
   design = Design(tech)
 
   if verilog:
-    verilogFile = designDir/"aes_cipher_top_modified.v"
+    verilogFile = designDir/"aes_cipher_top.v"
     design.readVerilog(f"{verilogFile}")
     design.link("aes_cipher_top")
   else:
