@@ -1,35 +1,9 @@
-#BSD 3-Clause License
-#
-#Copyright (c) 2023, ASU-VDA-Lab
-#
-#Redistribution and use in source and binary forms, with or without
-#modification, are permitted provided that the following conditions are met:
-#
-#1. Redistributions of source code must retain the above copyright notice, this
-#   list of conditions and the following disclaimer.
-#
-#2. Redistributions in binary form must reproduce the above copyright notice,
-#   this list of conditions and the following disclaimer in the documentation
-#   and/or other materials provided with the distribution.
-#
-#3. Neither the name of the copyright holder nor the names of its
-#   contributors may be used to endorse or promote products derived from
-#   this software without specific prior written permission.
-#
-#THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-#AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-#IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-#DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-#FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-#DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-#SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-#CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-#OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-#OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 import openroad as ord
-from openroad import Tech, Design
+from openroad import Tech, Design, Timing
 import os, odb, drt
 from pathlib import Path
+import json
+
 
 def load_design(demo_path, verilog = False):
   #Read Files
@@ -39,24 +13,20 @@ def load_design(demo_path, verilog = False):
   lefDir = demo_path/"ASAP7/LEF/"
   designDir = demo_path/"aes_cipher_top/"
   # Read technology files
-  libFiles = libDir.glob('*.lib')
+  libFiles = libDir.glob('*nldm*.lib')
   techLefFiles = techLefDir.glob('*.lef')
   lefFiles = lefDir.glob('*.lef')
   for libFile in libFiles:
-    if libFile.name == "asap7sc7p5t_INVBUF_LVT_TT_nldm_220122.lib": # Skip CON problem recorded @06/22
-        tech.readLiberty(libFile.as_posix())
-  print("Lib files reading done!")
+    print(f'Reading {libFile}')
+    tech.readLiberty(libFile.as_posix())
   for techLefFile in techLefFiles:
     tech.readLef(techLefFile.as_posix())
-  print("TechLef files reading done!")
   for lefFile in lefFiles:
     tech.readLef(lefFile.as_posix())
-  print("Lef files reading done!")
   design = Design(tech)
-  #Read design files
 
   if verilog:
-    verilogFile = designDir/"aes_cipher_top.v"
+    verilogFile = designDir/"aes_cipher_top_modified.v"
     design.readVerilog(f"{verilogFile}")
     design.link("aes_cipher_top")
   else:
@@ -71,4 +41,42 @@ def load_design(demo_path, verilog = False):
   
   return tech, design
 
+def dump_libs_to_json(dump_file_path, libs):
+  data = []
+  print(f'Len(libs): {len(libs)}')
+  
+  for lib in libs:
+    print(f'Library File: {lib.getName()}')  
+    for master in lib.getMasters():
+      libcell_name = master.getName()
+      libcell_area = master.getHeight() * master.getWidth()
+      pins = master.getMTerms()
+      print("-"*60)
+      print(f'Len Pins of this Lib: {len(pins)}')
+      print(f'Libcell Name: {libcell_name}, Libcell Area: {libcell_area}')
 
+      pin_list = []
+      for pin in pins:
+        pin_name = pin.getName()
+        pin_dir = pin.getIoType()
+        pin_list.append({
+          "pin_name": pin_name,
+          "pin_dir": pin_dir
+        })
+        print(f'Pin Name: {pin_name}, Pin Direction: {pin_dir}')
+
+
+      data.append({
+        "libcell_name": libcell_name,
+        "libcell_area": libcell_area,
+        "pins": pin_list
+      })
+
+  with open(dump_file_path, 'w') as f:
+    for cell in data:
+      name = cell["libcell_name"]
+      area = cell["libcell_area"]
+      pinNum = len(cell["pins"])
+      f.write(f"{name} {area} {pinNum}\n")
+      for pin in cell["pins"]:
+          f.write(f"{pin['pin_name']} {pin['pin_dir']}\n")

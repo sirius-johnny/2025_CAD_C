@@ -19,18 +19,16 @@ class Parser{
 public:
     Parser() {};
     ~Parser() {};
-    bool parseNodesFile(const std::string& filename);
+    bool parseLibsFile(const std::string& filename);    // Read Libs file from python dumping
+    bool parseCSVFile(const std::string& filename); 
+    bool parsePlFile(const std::string& filename);      // Build terminals only
     bool parseNetsFile(const std::string& filename);
 
-    void setNumNodes(int nn);
-    void setNumTerminals(int nt);
-
-
 private:
-    int _numNodes; 
-    int _numTerminals;
+    std::vector<Library*> _libraries;
     std::vector<Net*> _nets;
-    std::vector<Node*> _nodes;
+    std::vector<Cell*> _cells;
+    std::vector<Cell*> _terminals;
 };
 
 }

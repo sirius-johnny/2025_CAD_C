@@ -11,27 +11,34 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string>
-#include <pybind11/pybind11.h>
-#include <pybind11/stl.h>
 
-struct Net{
-    std::string name;
-    int degree;
-    std::vector<std::string> nodes;
-};
+enum class PinDir {INPUT, OUTPUT};
+struct Net;
+struct Cell;
 
 struct Pin{
     std::string name;
-    std::string gate;
-    int netID;
+    PinDir      dir;
+    Cell*       cell;
+    Net*        net;
 };
 
-struct Node{
+struct Net{
     std::string name;
-    bool isTerminal = false;
-    double w, h;
+    std::vector<Pin*> pins;
+};
 
-    Node(std::string name, bool ter, int w, int h): name(name), isTerminal(ter), w(w), h(h){};
+struct Library{
+    std::string name;
+    double      area;
+    std::vector<std::pair<std::string, PinDir>> pinDef;
+};
+
+struct Cell{
+    std::string name;
+    std::string library;
+    std::string type;
+    double      w, h, xCoor, yCoor;
 };
 
 #endif
