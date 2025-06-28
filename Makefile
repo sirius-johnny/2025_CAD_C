@@ -1,17 +1,20 @@
-CC=g++
-LDFLAGS=-std=c++14 -O3 -lm
-SOURCES=src/main.cpp src/parser.cpp
-OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=bin/cadC
-INCLUDES=src/parser.h src/instance.h
+CC = g++
+LDFLAGS = -std=c++17 -O3 -lm
+SRCDIR = src
+INCLUDES = -I$(SRCDIR)
+
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(patsubst $(SRCDIR)/%.cpp, $(SRCDIR)/%.o, $(SOURCES))
+
+EXECUTABLE = bin/cadC
 
 all: $(EXECUTABLE)
 
 $(EXECUTABLE): $(OBJECTS)
 	$(CC) $(LDFLAGS) $(OBJECTS) -o $@
 
-src/%.o: src/%.cpp $(INCLUDES)
-	$(CC) $(LDFLAGS) -c $< -o $@
+$(SRCDIR)/%.o: $(SRCDIR)/%.cpp
+	$(CC) $(LDFLAGS) $(INCLUDES) -c $< -o $@
 
 clean:
-	rm -rf src/*.o $(EXECUTABLE)
+	rm -rf $(SRCDIR)/*.o $(EXECUTABLE)

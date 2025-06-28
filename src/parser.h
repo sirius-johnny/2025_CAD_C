@@ -11,13 +11,13 @@
 #include <cmath>
 #include <stdlib.h>
 #include <time.h>
-#include "instance.h"
+#include "Placement.h"
 
 namespace bookshelf{
 
 class Parser{
 public:
-    Parser() {};
+    Parser(Placement& p): _placement(p) {};
     ~Parser() {};
     bool parseLibsFile(const std::string& filename);    // Read Libs file from python dumping
     bool parseCSVFile(const std::string& filename); 
@@ -25,10 +25,9 @@ public:
     bool parseNetsFile(const std::string& filename);
 
 private:
-    std::vector<Library*> _libraries;
-    std::vector<Net*> _nets;
-    std::vector<Cell*> _cells;
-    std::vector<Cell*> _terminals;
+    Placement& _placement;
+    std::unordered_map<std::string, int> _cellName2ID;
+    std::unordered_map<std::string, int> _terName2ID;
 };
 
 }
