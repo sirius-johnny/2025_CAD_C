@@ -20,12 +20,11 @@ die_area = block.getDieArea()
 
 dump_file_name = "./dump_for_Cplus/libs.txt"
 
-with open(dump_file_name, 'w') as f:
-    print(f"{die_area.ll()[0]} {die_area.ll()[1]} {die_area.ur()[0]} {die_area.ur()[1]}\n")
-    f.write(f"{die_area.ll()[0]} {die_area.ll()[1]} {die_area.ur()[0]} {die_area.ur()[1]}\n")
+# with open(dump_file_name, 'w') as f:
+#     print(f"{die_area.ll()[0]} {die_area.ll()[1]} {die_area.ur()[0]} {die_area.ur()[1]}\n")
+#     f.write(f"{die_area.ll()[0]} {die_area.ll()[1]} {die_area.ur()[0]} {die_area.ur()[1]}\n")
 
-libs = db.getLibs()
-dump_libs_to_json(dump_file_name, libs, die_area)
+dump_libs_to_json(dump_file_name, db, design)
 
 insts = block.getInsts()
 for inst in insts:

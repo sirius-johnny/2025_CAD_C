@@ -29,14 +29,15 @@ bool bookshelf::Parser::parseLibsFile(const std::string& filename){
     this->_placement.setBoundaryTop(d);
 
     while(1){
-        std::string libName;
+        std::string libName, seq;
         double libArea;
         int numPins = 0;
         
-        if(!(libsFile >> libName >> libArea >> numPins)){
+        if(!(libsFile >> libName >> libArea >> seq >> numPins)){
             break;
         }        
         Library* lib = new Library(libName, libArea);
+        lib->setFF((seq=="True"));
 
         bool hasD = false;
         bool hasCLK = false;
@@ -46,11 +47,8 @@ bool bookshelf::Parser::parseLibsFile(const std::string& filename){
                 std::cerr << "Something goes wrong in dumping libs file...\n";
             }
             pin.second = (line=="INPUT")? INPUT : OUTPUT;
-            if((pin.first=="D")*(pin.second)){hasD = true;}
-            if((pin.first=="CLK")*(pin.second)){hasCLK = true;}
             lib->addPinDef(pin);
         }
-        lib->setFF(hasD*hasCLK);
         this->_placement.addLibrary(lib);
 
         if(lib->isFF()){std::cout << "FF: " << lib->name() << "\n";}
