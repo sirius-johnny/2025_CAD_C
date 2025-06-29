@@ -18,6 +18,12 @@ public:
     void cellAddPin(int cID, Pin* pin);
     void terAddPin(int ctID, Pin* pin);
 
+    // Set //
+    void setBoundaryLeft(double b);
+    void setBoundaryRight(double b);
+    void setBoundaryBottom(double b);
+    void setBoundaryTop(double b);
+
     // Display infomation //
     void showLibInfo(int libID);
     void showNetInfo(int netID);
@@ -36,10 +42,10 @@ private:
     std::vector<Cell*>      _terminals;
 
     // Design Region //
-    double _boundLeft = 0;
-    double _boundRight = 50000;
-    double _boundBottom = 0;
-    double _boundTop = 50000;
+    double _boundLeft;
+    double _boundRight;
+    double _boundBottom;
+    double _boundTop;
 };
 
 #endif // PLACEMENT_H

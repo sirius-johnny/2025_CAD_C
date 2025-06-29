@@ -20,6 +20,14 @@ bool bookshelf::Parser::parseLibsFile(const std::string& filename){
     }
 
     std::string line;
+
+    double a, b, c, d;
+    libsFile >> a >> b >> c >> d;
+    this->_placement.setBoundaryLeft(a);
+    this->_placement.setBoundaryBottom(b);
+    this->_placement.setBoundaryRight(c);
+    this->_placement.setBoundaryTop(d);
+
     while(1){
         std::string libName;
         double libArea;
@@ -30,16 +38,22 @@ bool bookshelf::Parser::parseLibsFile(const std::string& filename){
         }        
         Library* lib = new Library(libName, libArea);
 
+        bool hasD = false;
+        bool hasCLK = false;
         for(int i=0; i<numPins; ++i){
             std::pair<std::string, bool> pin;
             if(!(libsFile >> pin.first >> line)){
                 std::cerr << "Something goes wrong in dumping libs file...\n";
             }
             pin.second = (line=="INPUT")? INPUT : OUTPUT;
+            if((pin.first=="D")*(pin.second)){hasD = true;}
+            if((pin.first=="CLK")*(pin.second)){hasCLK = true;}
             lib->addPinDef(pin);
         }
-        
+        lib->setFF(hasD*hasCLK);
         this->_placement.addLibrary(lib);
+
+        if(lib->isFF()){std::cout << "FF: " << lib->name() << "\n";}
     }
 
     std::cout << "Reading " << filename << " done!\n";
@@ -138,7 +152,7 @@ bool bookshelf::Parser::parseNetsFile(const std::string& filename){
             
             if(this->_cellName2ID.count(a)){
                 // Build this Pin
-                Pin* pin = new Pin(a+"/"+c, (b=="I")? INPUT: OUTPUT, this->_cellName2ID[a], i);
+                Pin* pin = new Pin(c.substr(2), (b=="I")? INPUT: OUTPUT, this->_cellName2ID[a], i);
                 pin->setXYOffset(xOff, yOff);
                 
                 // Add pinter for its Net & its Cell
@@ -147,7 +161,7 @@ bool bookshelf::Parser::parseNetsFile(const std::string& filename){
             }
             else{
                 // Build this Pin
-                Pin* pin = new Pin(a+"/"+c, (b=="I")? INPUT: OUTPUT, this->_terName2ID[a], i);
+                Pin* pin = new Pin(c.substr(2), (b=="I")? INPUT: OUTPUT, this->_terName2ID[a], i);
                 pin->setXYOffset(xOff, yOff);
                 
                 // Add pinter for its Net & its Cell

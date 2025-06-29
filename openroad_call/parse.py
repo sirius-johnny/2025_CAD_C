@@ -10,15 +10,22 @@ import sys
 parser = argparse.ArgumentParser(description="Path to root of the tutorial directory")
 parser.add_argument("--path", type = Path, default='../testcase', action = 'store')
 pyargs = parser.parse_args()
-tech, design = load_design(pyargs.path, verilog = True) 
+tech, design = load_design(pyargs.path, verilog = False) 
 
 timing = Timing(design)
 db = ord.get_db()
 corner = timing.getCorners()[0]
 block = design.getBlock()
+die_area = block.getDieArea()
+
+dump_file_name = "./dump_for_Cplus/libs.txt"
+
+with open(dump_file_name, 'w') as f:
+    print(f"{die_area.ll()[0]} {die_area.ll()[1]} {die_area.ur()[0]} {die_area.ur()[1]}\n")
+    f.write(f"{die_area.ll()[0]} {die_area.ll()[1]} {die_area.ur()[0]} {die_area.ur()[1]}\n")
 
 libs = db.getLibs()
-dump_libs_to_json("./dump_for_Cplus/libs.txt", libs)
+dump_libs_to_json(dump_file_name, libs, die_area)
 
 insts = block.getInsts()
 for inst in insts:

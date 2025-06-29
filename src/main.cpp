@@ -38,5 +38,6 @@ int main(int argc, char **argv){
     /////////////////////////
     std::string plotPlaOutFileName = args.count("-plot")? args["-plot"]: "./output_plots/init.plt";
     placement.plotPlacement(plotPlaOutFileName);
+
     return 0;
 }

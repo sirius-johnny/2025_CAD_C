@@ -28,6 +28,22 @@ void Placement::terAddPin(int tID, Pin* pin){
     this->_terminals.at(tID)->addPin(pin);
 }
 
+void Placement::setBoundaryLeft(double b){
+    this->_boundLeft = b;
+}
+
+void Placement::setBoundaryRight(double b){
+    this->_boundRight = b;
+}
+
+void Placement::setBoundaryBottom(double b){
+    this->_boundBottom = b;
+}
+
+void Placement::setBoundaryTop(double b){
+    this->_boundTop = b;
+}
+
 void Placement::showLibInfo(int libID){
     std::cout << "| Library: "  << this->_libraries.at(libID)->name()
               << " | Area: "    << this->_libraries.at(libID)->area()
@@ -61,19 +77,31 @@ void Placement::plotPlacement(const std::string& filename){
     plotFile << "set size ratio 1" << std::endl;
     plotFile << "set nokey" << std::endl
              << std::endl;
-    plotFile << "plot[:][:] '-' w l lt 3 lw 2, '-' w l lt 1" << std::endl
+    plotFile << "plot[:][:] '-' w l lt 3 lw 2, '-' w l lt 1, '-' w l lt rgb 'red'" << std::endl
              << std::endl;
+
+    // Bounding Box
     plotFile << "# bounding box" << std::endl;
     plotBox(plotFile, this->_boundLeft, this->_boundBottom, this->_boundRight, this->_boundTop);
     plotFile << "EOF" << std::endl;
-    plotFile << "# modules" << std::endl
-            << "0.00, 0.00" << std::endl
-            << std::endl;
+    
+    // Cells
+    plotFile << "# cells" << std::endl;
     for (size_t i=0; i < this->_cells.size(); ++i) {
         Cell* c = this->_cells.at(i);
         plotBox(plotFile, c->xCoor(), c->yCoor(), c->xCoor() + c->w(), c->yCoor() + c->h());
     }
     plotFile << "EOF" << std::endl;
+
+    // Terminals
+    plotFile << "# terminals" << std::endl;
+    int r = 10;
+    for (size_t i=0; i < this->_terminals.size(); ++i) {
+        Cell* c = this->_terminals.at(i);
+        plotBox(plotFile, c->xCoor()-r, c->yCoor()-r, c->xCoor() + r, c->yCoor() + r);
+    }
+    plotFile << "EOF" << std::endl;
+
     plotFile << "pause -1 'Press any key to close.'" << std::endl;
     plotFile.close();
     std::cout << "Writing " << filename << " done!\n";
